@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <!-- css -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- js -->
+  <script src="js/main.js" defer></script>
+
+</head>
+<body>
+  <main>
+    <section class="row main-section">
+
+      <img src="images/illustration-box-desktop.svg" alt="illustration-box-desktop.svg" class="illustration-box-desktop">
+      <section class="col-12 col-md-6  col-lg-6 image-section">
+        <img src="images/bg-pattern-desktop.svg" alt="bg-pattern-desktop.svg" class="bg-pattern-desktop">
+        <img src="images/bg-pattern-mobile.svg" alt="bg-pattern-mobile.svg" class="bg-pattern-mobile">
+        <img src="images/illustration-woman-online-desktop.svg" alt="illustration-woman-online-desktop.svg" class="illustration-woman-online-desktop">
+        <img src="images/illustration-woman-online-mobile.svg" alt="illustration-woman-online-mobile.svg" class="illustration-woman-online-mobile">
+
+        
+      </section>
+      <section class="col-12 col-md-6 col-lg-6 faq-section">
+          <h1>FAQ</h1>
+          <div class="faq-items">
+            <div class="faq-item">
+              <h5 id="h1" onclick="viewDetail('h1','p1','img1')" >How many team members can I invite? <img id="img1" src="images/icon-arrow-down.svg" alt=""></h5>
+              <p id="p1">You can invite up to 2 additional users on the Free plan. There is no limit on 
+                team members for the Premium plan.</p>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h5 id="h2" onclick="viewDetail('h2','p2','img2')">What is the maximum file upload size? <img id="img2" src="images/icon-arrow-down.svg" alt=""></h5>
+              <p id="p2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h5 id="h3" onclick="viewDetail('h3','p3','img3')">How do I reset my password? <img id="img3" src="images/icon-arrow-down.svg" alt=""></h5>
+              <p id="p3">Click “Forgot password” from the login page or “Change password” from your profile page.
+                A reset link will be emailed to you.</p>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h5 id="h4" onclick="viewDetail('h4','p4','img4')" >Can I cancel my subscription? <img id="img4" src="images/icon-arrow-down.svg" alt=""></h5>
+              <p id="p4">Yes! Send us a message and we’ll process your request no questions asked.</p>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h5 id="h5" onclick="viewDetail('h5','p5','img5')" >Do you provide additional support? <img id="img5" src="images/icon-arrow-down.svg" alt=""></h5>
+              <p id="p5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+            </div>
+            <hr>
+          </div>
+      </section>
+    </section>
+    <section class="codedBY">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </section>
+  </main>
+  <!-- How many team members can I invite?
+  You can invite up to 2 additional users on the Free plan. There is no limit on 
+  team members for the Premium plan.
+
+  What is the maximum file upload size?
+  No more than 2GB. All files in your account must fit your allotted storage space.
+
+  How do I reset my password?
+  Click “Forgot password” from the login page or “Change password” from your profile page.
+  A reset link will be emailed to you.
+
+  Can I cancel my subscription?
+  Yes! Send us a message and we’ll process your request no questions asked.
+
+  Do you provide additional support?
+  Chat and email support is available 24/7. Phone lines are open during normal business hours. -->
+
+  
+</body>
+</html>

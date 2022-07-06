@@ -1,0 +1,97 @@
+@media screen and (max-width:1045px){
+    .faq-section{
+        padding: 4rem 0;
+    }
+    .bg-pattern-desktop{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:900px){
+    .bg-pattern-desktop{
+        max-width: 90%;
+    }
+    .main-section{
+        max-width: 90%;
+        display: block;
+    }
+    .image-section,.faq-section{
+        max-width: 100%;
+        padding: 0;
+    }
+    .image-section{
+        position: relative;
+        text-align: center;
+        overflow: visible;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .illustration-woman-online-mobile,.bg-pattern-mobile{
+        display: block;
+        margin: 0 auto;
+    }
+    .bg-pattern-mobile{
+        position: relative;
+        z-index: 0;
+        width: 80%;
+    }
+    .illustration-woman-online-mobile{
+        margin: 0 auto;
+        position: absolute;
+        z-index: 1;
+        width: 80%;
+        bottom: 3rem;
+    }
+    .illustration-box-desktop,.bg-pattern-desktop,.illustration-woman-online-desktop{
+        display: none;
+    }
+    .faq-section{
+        margin: 0 1rem;
+        padding: 0 1rem 1rem 1rem;
+    }
+    .faq-items{
+        text-align: center;
+        margin: 15px 0 0 0;
+    }
+    h1{
+        text-align: center;
+        margin: 2rem;
+        font-size: 2.2rem;
+    }
+    h5 img{
+        margin-left: 5rem;
+    }
+    .faq-item p{
+        text-align: left;
+        max-width: 20rem;
+        display: none;
+        /* visibility: hidden; */
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:511px){
+    .main-section{
+        min-width: 90%;
+        display: block;
+    }
+    .illustration-woman-online-mobile{
+        bottom: 2rem;
+    }
+    .faq-section{
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+    .faq-item h5{
+        font-size: 16px;
+        text-align: left;
+    }
+    h5 img{
+        margin-left: 1rem;
+        
+    }
+    .faq-item p{
+        font-size: 0.8rem;
+        max-width: 19rem;
+    }
+}
