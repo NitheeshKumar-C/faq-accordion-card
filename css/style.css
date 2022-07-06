@@ -142,15 +142,12 @@ h5 img{
   transform: rotate(0,0) ;
     }
 }
-i{
-
-color:hsl(238, 29%, 16%)
- hsl(14, 88%, 65%)
-
- hsl(273, 75%, 66%)
- hsl(240, 73%, 65%)
-
- hsl(237, 12%, 33%) hsl(240, 6%, 50%)
-
- hsl(240, 5%, 91%)
+.attribution{
+    margin: 1.5rem auto;
+    font-size: 1rem;
+    color: white;
+}
+.attribution a{
+    color: white;
+    font-weight: 700;
 }
