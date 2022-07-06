@@ -72,6 +72,7 @@
 }
 @media screen and (max-width:511px){
     .main-section{
+        margin-top: 5rem;
         min-width: 90%;
         display: block;
     }
