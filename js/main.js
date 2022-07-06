@@ -18,11 +18,11 @@ function viewDetail(heading,id,image){
         prevImg.classList.remove('arrow-up');
         prevImg.classList.add('arrow-down');
         head.style.color='hsl(240, 6%, 50%)';
-        head.style.fontWeight='500';
+        head.style.fontWeight='700';
     }
     if(head!=prevHead && prevHead!=''){
         prevHead.style.color='hsl(240, 6%, 50%)';
-        prevHead.style.fontWeight='500';
+        prevHead.style.fontWeight='700';
     }
     prevHead=head;
     if(id!=prevPId && prevPId!=''){
